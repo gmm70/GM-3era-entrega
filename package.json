@@ -1,0 +1,28 @@
+{
+  "name": "gm-3era-entrega--maurino",
+  "version": "1.0.0",
+  "description": "Esta es la tercera y ultima entrega del proyecto final. Es una pagina de un local ficticio de ropa e indumentaria, tomando como referencia otras paginas ya existentes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "keywords": [
+    "indumentaria",
+    "ropa",
+    "deportes",
+    "zapatillas",
+    "calzado",
+    "estilo",
+    "moda",
+    "nike",
+    "converse"
+  ],
+  "author": "Gonzalo Maurino Medina",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
